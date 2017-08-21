@@ -12,4 +12,7 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 # Disable Animations
 gsettings set org.gnome.desktop.interface enable-animations false
+
+# Show Date in Top Bar
+gsettings set org.gnome.desktop.interface clock-show-date true
 ```
