@@ -15,4 +15,7 @@ gsettings set org.gnome.desktop.interface enable-animations false
 
 # Show Date in Top Bar
 gsettings set org.gnome.desktop.interface clock-show-date true
+
+# Enable Fractional Scaling
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
 ```
